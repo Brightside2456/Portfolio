@@ -4,16 +4,20 @@ import Navbar from '../components/Navbar';
 import Banner from '../components/Banner';
 import Summary from '../components/Summary';
 import AboutMe from '../components/AboutMe';
+import Projects from '../components/Projects';
 // import '../Styles/Home.css';
 
 
 const Home = () => {
     return (
         <>
-            <Navbar />
-            <Banner />
-            <Summary />
-            <AboutMe />
+            <div className='home-container'>
+                <Navbar />
+                <Banner />
+                <Summary />
+                <AboutMe />
+                <Projects />
+            </div>
         </>
     )
 }
