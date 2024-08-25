@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import Banner from '../components/Banner';
 import Summary from '../components/Summary';
 import AboutMe from '../components/AboutMe';
-import Projects from '../components/Projects';
+import Projects from '../components/ProjectsComponent';
 // import '../Styles/Home.css';
 
 

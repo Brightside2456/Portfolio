@@ -70,3 +70,60 @@
     line-height: 1.5;
     color: #34495e;
 }
+
+.project-description {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #34495e;
+    margin-bottom: 15px;
+}
+
+.read-more-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.read-more-btn:hover {
+    background-color: #2980b9;
+}
+
+.project-item.odd .read-more-btn {
+    background-color: #2ecc71;
+}
+
+.project-item.odd .read-more-btn:hover {
+    background-color: #27ae60;
+}
+
+.projects-link-btn {
+    display: block;  /* Changed back to 'block' */
+    width: fit-content;  /* This ensures the button is only as wide as its content */
+    margin: 0 auto 30px;  /* This centers the button and adds margin at the bottom */
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;  /* This removes the underline from the link */
+    text-align: center;  /* This ensures the text inside the button is centered */
+}
+
+/* Keep the hover and active states the same */
+.projects-link-btn:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+.projects-link-btn:active {
+    transform: translateY(0);
+}
